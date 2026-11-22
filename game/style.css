@@ -1,0 +1,28 @@
+/* NIGHT LEDGER — page styling. The game itself is drawn entirely on canvas. */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #05070d;
+  min-height: 100vh;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+main {
+  line-height: 0;
+  padding: 18px;
+}
+
+canvas {
+  width: min(96vw, 1280px);
+  height: auto;
+  background: #0a0f1c;
+  border: 1px solid #233457;
+  border-radius: 6px;
+  box-shadow: 0 0 42px rgba(38, 84, 190, 0.35), 0 0 4px rgba(90, 140, 255, 0.6);
+}
